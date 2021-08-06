@@ -41,10 +41,10 @@ ex) 4x4 행렬
 
 ## 프로그램 구성 
 
-1. Makefile 
+1. **Makefile** 
 : 파일 변경을 쉽게 할 수 있도록 make 파일 생성 
 
-2. main.c
+2. **main.c**
 : 메인 프로그램 
 **주요함수**
 - 행렬생성 
@@ -75,11 +75,11 @@ ex) 4x4 행렬
         print_matrix(a,"A",len);
         print_matrix(b,"B",len);
 ```
-- 계산 선택 
+- **계산 선택**    
 while 문을 사용해 여러계산 할수 있도록 설정     
 switch~case문을 이용해 원하는 계산을 선택할 수 있도록 설정 
 
-- 행렬 출력
+- **행렬 출력**
 ```c
 void print_matrix(int** matrix, char* name,int len)
 {
