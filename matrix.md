@@ -10,34 +10,34 @@
 6. 곱셈의 전치 행렬 생성
 
 ## 시나리오 
-1. make
-![image](https://user-images.githubusercontent.com/87008955/128460182-cf54d23a-903b-4784-aaba-6f3a71223cd5.png)
+1. **make**
+![image](https://user-images.githubusercontent.com/87008955/128462143-35efdf2d-0ba2-44ea-95bd-dcf4dca5504c.png)
 
-2. 프로그램 실행 
-![image](https://user-images.githubusercontent.com/87008955/128460248-51bf807b-3d01-4aea-a54f-e991441986d6.png)
 
-3. 행렬 크기 입력 
+2. **프로그램 실행**
+![image](https://user-images.githubusercontent.com/87008955/128462172-48a50137-7586-4c7f-aa81-2df6501b3e81.png)
+
+
+3. **행렬 크기 입력** 
 ex) 4x4 행렬
-![image](https://user-images.githubusercontent.com/87008955/128460289-3b4f0358-7981-4b90-aeb5-7c85bad28f46.png)
+![image](https://user-images.githubusercontent.com/87008955/128462206-9c046a3b-7ba4-4b19-851c-0801893d1e64.png)
 
-4. 원하는 계산 입력 
+
+4. **원하는 계산 입력** 
   - 덧셈 
-  ![image](https://user-images.githubusercontent.com/87008955/128460400-7ab17b5a-449d-4a6c-a0b5-594bc2e18421.png)
-
+ ![image](https://user-images.githubusercontent.com/87008955/128462250-3647e921-ee53-4ee6-9d74-c6ff2e558c05.png)
   
   - 뺼셈
-  ![image](https://user-images.githubusercontent.com/87008955/128460419-cdbbf0a1-e253-4a1d-af57-a5d305dc2545.png)
-
+  ![image](https://user-images.githubusercontent.com/87008955/128462284-dbe86426-69cd-42b7-8210-c472e59909aa.png)
   
   - 곱셈
-  ![image](https://user-images.githubusercontent.com/87008955/128460444-19980472-cbe8-4c60-8671-02fe58e78c1e.png)
-
+  ![image](https://user-images.githubusercontent.com/87008955/128462329-8e3ff08c-40ff-4cc5-9755-6f1ed29b4a0c.png)
   
   - 전치
-  ![image](https://user-images.githubusercontent.com/87008955/128460464-218f0566-3d52-4ade-a327-4f2ea84066cb.png)
-
+ ![image](https://user-images.githubusercontent.com/87008955/128462354-b2e68df6-aa71-4a85-81ba-c74598c77035.png)
+ 
   - 종료
-  ![image](https://user-images.githubusercontent.com/87008955/128460575-c5c588f7-a00f-46ea-8598-512267e8b12f.png)
+  ![image](https://user-images.githubusercontent.com/87008955/128462377-7b15334d-2518-4e79-8db4-83c1019958a2.png)
 
 ## 프로그램 구성 
 
