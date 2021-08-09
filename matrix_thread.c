@@ -1,3 +1,4 @@
+//행렬기능을 thread에 담아 수행하는 프
 
 #include <stdio.h>
 #include <unistd.h>
@@ -45,7 +46,7 @@ typedef struct{
         int len;
 }matmul_arg_t;
 
-
+//곱셈 수행하는 thread
 //int mat_mul_th_kernel(int i,int** a,int** b,int** c,int len)
 void *mat_mul_th_kernel(void *arg)
 {
@@ -80,7 +81,7 @@ int mat_mul_th(int** a,int** b,int** c,int len){
                         arg->b = b;
                         arg->c = c;
                         arg->len = len;
-                        res = pthread_create(a_thread+i, NULL, mat_mul_th_kernel,(void*)arg);
+                        res = pthread_create(a_thread+i, NULL, mat_mul_th_kernel,(void*)arg); //len 개수만큼 thread를 생성하게된다. 
                         if(res !=0){
                                 perror("thread creation failed");
                                 exit(EXIT_FAILURE);
