@@ -1,3 +1,4 @@
+// thread로 행렬 계산하는 프로그램 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -86,17 +87,17 @@ int main(){
                         fprintf(stderr,"Failed to matrix multiplication\n");
                         exit(1);
                 }
-                print_matrix(c,"MUL",len);
+                print_matrix(c,"MUL",len); //쓰레드로 실행한 곱셈
                 stop = wtime();
                 printf("processing time : %f\n",stop-start);
                 start=wtime();
-                if(mat_mul(a,b,c,len) != 0){
+                if(mat_mul(a,b,c,len) != 0){ //쓰레드를 사용하지 않고 하나의 프로세스에서 실행하는 곱샘
                         fprintf(stderr,"Failed to matrix multiplication\n");
                         exit(1);
                 }
                 stop = wtime();
                 print_matrix(c,"MUL",len);
-                printf("processing time : %f\n",stop-start);
+                printf("processing time : %f\n",stop-start); //쓰레드사용했을 때와 사용안했을때시간비교
 
                 break;
 
